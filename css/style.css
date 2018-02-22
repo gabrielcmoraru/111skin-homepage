@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'font1';
+    src: url('fonts/exljbris - MuseoSans-500') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+li {
+	display: inline;
+	padding-right: 1em;
+}
+
+ul {
+	padding-left: 0.5em;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li a:hover {
+	color: red;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	padding: 1em;
+	font-size: 3em;
+	font-weight: 500;
+}
+
+h2 {
+	color: #575756;
+}
+
+h3 {
+	text-transform: uppercase;
+	padding-top: 1em;
+	font-size: 3em;
+	font-weight: 500;
+}
+
+p {
+	font-family: Museosans 300;
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.page-promo {
+	width: 100%;
+	background-color: silver;
+	line-height: 0;
+	text-align: center;
+}
+
+.section1 {
+	position: relative;
+	width: 100%;
+	height: 1200px;
+	background: url("../images_src/topbanner.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.top-head {
+	display: flex;
+}
+
+.navigation {
+	text-transform: uppercase;
+	padding-left: 1em;
+	padding-top: 8em;
+	width: 35%;
+	display: inline-block;
+}
+
+.logo {
+	padding-top: 5em;
+	text-align: center;
+	width: 30%;
+}
+
+.logo img {
+	width: 60%;
+}
+
+.user-menu {
+	padding-top: 7em;
+	width: 35%;
+	text-align: right;
+	padding-right: 4em;
+}
+
+.user-menu img {
+	width: 1.5em;
+}
+
+.user-menu img:hover {
+	transition: ease-in-out 150ms;
+	transform: scale(1.4)
+}
+
+.top-content {
+	text-align: center;
+	width: 50%;
+}
+
+.first-content {
+	padding-top: 30%;
+	padding-right: 10%;
+	padding-left: 10%;
+	margin-bottom: 5em;
+}
+
+.discover {
+	border: 1px solid black;
+	line-height: 1.5em;
+	padding: 0.5em 3.5em 0.5em 3.5em;
+}
+
+.twins:hover{
+	border-color: red;
+	background-color: black;
+	color: white;
+}
+
+.pagination {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 0;
+}
+
+.pagination img {
+	width: 1.2em;
+}
+
+.section2 {
+	display: flex;
+	width: 100%;
+	height: 1000px;
+}
+
+.mid-left {
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	height: 100%;
+	background-color: lightgray;
+	text-align: center;
+}
+
+.mid-top {
+	width: 100%;
+	height: 25%;
+}
+
+.mid-mid {
+	width: 100%;
+	height: 50%;
+}
+
+.mid-bottom {
+	width: 100%;
+	height: 25%;
+}
+
+.mid-left img {
+	text-align: center;
+	padding-top: 30%;
+	max-width: 25%;
+}
+
+.author p {
+	text-transform: uppercase;
+	color: #575756;
+}
+
+.author p:nth-child(2) {
+	color: #8e8e8e;
+}
+
+.mid-right {
+	display: flex;
+	flex-wrap: wrap;
+	right: 0;
+	height: 100%;
+	width: 50%;
+	background-color: white;
+	text-align: center;
+}
+
+.mid-right-top {
+	width: 100%;
+	height: 25%;
+}
+
+.mid-right-mid {
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: 50%;
+}
+
+.cream {
+	width: 90%;
+}
+
+.arrow-left {
+	display: block;
+	margin:auto;
+	width: 2em;
+	margin: 0;
+	align-self: center;
+	transform: rotate(90deg)
+}
+
+.arrow-right {
+	display: block;
+	margin: auto;
+	width: 2em;
+	margin: 0;
+	align-self: center;
+	transform: rotate(270deg)
+}
+
+.mid-right-bottom {
+	width: 100%;
+	height: 25%;
+}
+
+.section3 {
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	background: url("../images_src/bottombanner.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+footer {
+	justify-content: center;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	height: 250px;
+	background-color: black;
+}
+
+form {
+	display: block;
+	align-self: center;
+}
+
+input {
+	border: 1px solid white;
+	color: white;
+	background-color: black;
+	height:34px;
+	line-height: 14px;
+	padding: 12px 150px 12px 20px;
+	margin-right: 2em;
+}
+
+button {
+	font-weight: 600;
+	text-transform: uppercase;
+	border: 1px solid white;
+	color: white;
+	background-color: black;
+	padding: 20px 20px 20px 20px;
+}
+
+button:hover {
+	cursor: pointer;
+	color: red;
+	border-color: red;
+}
+
+.nav-bottom {
+	text-align: center;
+}
+
+.nav-bottom a {
+	color: white;
+}
+
+.social-media {
+	text-align: center;
+}
+
+.social-media img:hover {
+	transition: ease-in-out 150ms;
+	transform: scale(1.4);
+}
