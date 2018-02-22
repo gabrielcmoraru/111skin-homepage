@@ -293,6 +293,7 @@ button:hover {
 }
 
 .social-media {
+	display: block;
 	text-align: center;
 }
 
